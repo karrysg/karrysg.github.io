@@ -10,17 +10,28 @@
   <body>
     <header class="header">
   <nav>
+    <input type="checkbox" id="mobile-menu" class="mobile-menu-check">
+    <label for="mobile-menu" class="show-mobile-menu">Menu</label>
     <ul class="header-nav nav-links">
       <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog">Blog</a></li>
+<li class="dropdown">
+  <a class="drop-trigger" href="/blog">Blog</a>
+  <ul class="drop-menu">
+    
+      <li><a href="/2016/11/04/title-of-second-post.html">Special Post</a></li>
+    
+      <li><a href="/2016/11/03/title-of-post.html">This is the title of the post</a></li>
+    
+  </ul>
+</li>
 <li><a href="/2016/11/04/title-of-second-post.html">Newest Post</a></li>
 
     </ul>
   </nav>
   <a href="/" class="header-logo">
-   <img src="/images/logo.png" alt="Learn Enough">
- </a>
+    <img src="/images/logo.png" alt="Learn Enough">
+  </a>
 </header>
 
 
@@ -77,7 +88,16 @@
     <ul class="footer-nav nav-links">
       <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog">Blog</a></li>
+<li class="dropdown">
+  <a class="drop-trigger" href="/blog">Blog</a>
+  <ul class="drop-menu">
+    
+      <li><a href="/2016/11/04/title-of-second-post.html">Special Post</a></li>
+    
+      <li><a href="/2016/11/03/title-of-post.html">This is the title of the post</a></li>
+    
+  </ul>
+</li>
 <li><a href="/2016/11/04/title-of-second-post.html">Newest Post</a></li>
 
     </ul>
