@@ -5,3 +5,18 @@
     width: 100%;
     background-image: url('assets/img/banner.jpg');
   }
+
+.banner
+{
+  width: 50em;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.image
+{
+  margin: 0;
+  padding: 2em 2em;
+  color: #fff;
+  background: #000;
+}
