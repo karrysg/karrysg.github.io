@@ -6,13 +6,8 @@ header div
     width: 100%;
   }
 
-h1
-{
-  font-size: 4em;
-  text-align: center;
 
-}
-
+/* banner styles */
 .banner
 {
   width: 50em;
@@ -20,12 +15,19 @@ h1
   background: #fff;
 }
 
+.banner h1
+{
+  font-size: 4em;
+  text-align: center;
+
+}
+
 .image
 {
   margin: 0;
   padding: 2em 2em;
   color: #fff;
-  background-image: url('assets/img/banner.jpg');
+  background: url('assets/img/banner.jpg') no-repeat center;
 }
 
 .links
@@ -45,10 +47,19 @@ h1
 {
   color: #fff;
 }
+ @media (max-width: 800px){
+   .banner
+   {
+     width: auto;
+     margin: 0 auto;
+     background: #fff;
+   }
 
-.content-container {
-  display: flex;
-  flex: 1 1 auto;
-  padding-top: 10vh;
-  width: 100%;
-}
+   .links
+   {
+     width: auto;
+     margin: 0;
+     background: #754b39;
+     padding: 2em 2em;
+   }
+ }
