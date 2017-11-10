@@ -47,7 +47,7 @@ header div
 {
   color: #fff;
 }
- @media (max-width: 800px){
+ @media (max-width: 38em){
    .banner
    {
      width: auto;
@@ -63,3 +63,29 @@ header div
      padding: 2em 2em;
    }
  }
+
+ /* footer */
+ .footer
+ {
+    text-align: center;
+    display: block;
+    background: beige;
+    border: 2px solid brown;
+ }
+
+ .footer_links a:focus
+ {
+   color: #360dd9
+ }
+.footer_links a:hover
+{
+  color: #6e1cde
+}
+.footer_links a:active
+{
+  color: #3d9375
+}
+.footer_links a:visited
+{
+  color: #f51d37
+}
