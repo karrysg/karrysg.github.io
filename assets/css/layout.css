@@ -73,22 +73,22 @@ header div
     border: 2px solid brown;
  }
 
- .footer_links a:link {
+a:link {
      color: green;
      background-color: transparent;
      text-decoration: none;
  }
-.footer_links a:hover {
+a:hover {
     color: red;
     background-color: transparent;
     text-decoration: underline;
 }
-.footer_links a:active {
+a:active {
     color: yellow;
     background-color: transparent;
     text-decoration: underline;
 }
-.footer_links a:visited {
+a:visited {
     color: purple;
     background-color: transparent;
     text-decoration: none;
