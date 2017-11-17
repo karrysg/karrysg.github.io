@@ -5,8 +5,23 @@ header div
     padding: 5px 0 0 0 ;
     width: 100%;
   }
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: helvetica, arial, sans-serif;
+  }
 
+a
+  {
+    color: white;
+  }
 
+a:hover
+{
+  background-color: gold;
+  text-decoration: underline;
+}
 /* banner styles */
 .banner
 {
@@ -43,10 +58,7 @@ header div
   list-style: none;
 }
 
-.links a
-{
-  color: #fff;
-}
+
  @media (max-width: 38em){
    .banner
    {
@@ -73,23 +85,56 @@ header div
     border: 2px solid brown;
  }
 
-a:link {
+.footer a:link {
      color: green;
      background-color: transparent;
      text-decoration: none;
  }
-a:hover {
+.footer a:hover {
     color: red;
     background-color: transparent;
     text-decoration: underline;
 }
-a:active {
+.footer a:active {
     color: yellow;
-    background-color: transparent;
+    background-color: green;
     text-decoration: underline;
 }
-a:visited {
+.footer a:visited {
     color: purple;
     background-color: transparent;
     text-decoration: none;
+}
+
+/* Boxes */
+.box-wrapper
+{
+  font-size: 24px;
+  margin: auto;
+  max-width: 960px;
+  overflow: hidden;
+}
+
+.box
+{
+  box-sizing: border-box;
+  float: left;
+  font-size: 1rem;
+  margin: 6rem 0 0;
+  padding: 0 3%;
+  width: 33%;
+}
+ .box a
+ {
+   color: green;
+ }
+
+ /*sidebar*/
+ .container { position:relative; padding:0 0 0 55px; }
+
+ #sidebar {
+    position:absolute;
+    top:0; bottom:0; left:0;
+    width:50px;
+    background:#000;
 }
