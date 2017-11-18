@@ -117,19 +117,30 @@ a:hover
 
 .box-border
 {
-  box-sizing: border-box;
   float: left;
-  font-size: 1rem;
-  margin: 6rem 0 0;
+  font-size: 1em;
+  margin: 0 0 6em;
   padding: 0 3%;
-  width: 33%;
-  border: 2px solid red;
+  width: 50%;
 }
  .box a
  {
    color: green;
  }
 
+.box-img
+{
+  display: block;
+  position: relative;
+  width: 400px;
+  height: 250px;
+}
+.box-img img
+{
+  position: absolute;
+  width: 400px;
+  height: 250px;
+}
  /*sidebar*/
  .container
 	 { display: flex;
