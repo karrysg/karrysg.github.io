@@ -115,7 +115,7 @@ a:hover
   overflow: hidden;
 }
 
-.box
+.box-border
 {
   box-sizing: border-box;
   float: left;
@@ -123,6 +123,7 @@ a:hover
   margin: 6rem 0 0;
   padding: 0 3%;
   width: 33%;
+  border: 2px solid red;
 }
  .box a
  {
@@ -130,11 +131,15 @@ a:hover
  }
 
  /*sidebar*/
- .container { position:relative; padding:0 0 0 55px; }
-
+ .container
+	 { display: flex;
+	  flex: 1 1 auto;
+	  padding-top: 10vh;
+	  width: 100%;
+	}
  #sidebar {
     position:absolute;
     top:0; bottom:0; left:0;
-    width:50px;
-    background:#000;
+    width:150px;
+    background:#694214;
 }
