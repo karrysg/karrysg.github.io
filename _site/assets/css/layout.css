@@ -160,6 +160,8 @@ a:hover
     width:150px;
     background:#694214;
 }
+
+/* lightbox*/
 .row > .column {
   padding: 0 8px;
 }
@@ -171,7 +173,7 @@ a:hover
 }
 
 .column {
-  float: inline-start;
+  display: inline-block;
   width: 10%;
 }
 
@@ -179,7 +181,7 @@ a:hover
 {
   max-width: 50%;
   margin-right: 1em;
-
+  background-color: black !important;
 }
 /* The Modal (background) */
 .modal {
@@ -224,6 +226,7 @@ a:hover
 
 .mySlides {
   display: none;
+  background-color: black !important;
 }
 
 /* Next & previous buttons */
