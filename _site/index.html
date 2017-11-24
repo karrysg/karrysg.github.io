@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
   
     <title>Karrys Photography</title>
@@ -51,33 +51,69 @@
 
     <div>
         <div class="container">
-
-
-
     <div class="box-wrapper">
-
       <div class="box">
       <h2>I'm an h2</h2>
         <div class="box-border box-img" >
-            <image>
-            <img src="assets/img/foam.jpg" alt="Foam" >
-            </image>
+            <img src="assets/img/foam.jpg" alt="Foam" onclick="openModal();currentSlide(1)">
         </div>
         <div class="box-border box-img" >
-          <image>
-          <img src="assets/img/leaves.jpg" alt="Leaves" >
-          </image>
+          <img src="assets/img/leaves.jpg" alt="Leaves" onclick="openModal();currentSlide(2)">
         </div>
         <div class="box-border box-img" >
-          <image>
-          <img src="assets/img/snow.jpg" alt="Snow" >
-          </image>
+          <img src="assets/img/snow.jpg" alt="Snow" onclick="openModal();currentSlide(3)">
         </div>
         <div class="box-border box-img" >
-          <image>
-          <img src="assets/img/tabby.jpg" alt="Tabby" >
-          </image>
+          <img src="assets/img/tabby.jpg" alt="Tabby" onclick="openModal();currentSlide(4)">
         </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="assets/img/foam.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="assets/img/leaves.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="assets/img/snow.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="assets/img/tabby.jpg" style="width:100%">
+      </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="Foam">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Leaves">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Tabby">
+    </div>
     </div>
   </div>
 </div>
