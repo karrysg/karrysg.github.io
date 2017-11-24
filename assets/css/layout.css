@@ -171,13 +171,15 @@ a:hover
 }
 
 .column {
-  float: left;
-  width: 25%;
+  float: inline-start;
+  width: 10%;
 }
+
 .column img
 {
-  max-width: 25%;
-  
+  max-width: 50%;
+  margin-right: 1em;
+
 }
 /* The Modal (background) */
 .modal {
