@@ -14,6 +14,12 @@
 <meta name="author" content="">
 <link href="assets/css/reset.css" rel="stylesheet">
 <link href="assets/css/layout.css" rel="stylesheet">
+<script type="text/javascript" src="assets/css/highslide/highslide-with-gallery.js"></script>
+<script type="text/javascript" src="highslide/highslide.config.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/highslide/highslide.css" />
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" href="highslide/highslide-ie6.css" />
+<![endif]-->
 </head>
 
   <body>
@@ -50,171 +56,247 @@
 </div>
 
     <div>
-        <div class="container">
-    <div class="box-wrapper">
-      <div class="box">
-      <h2>I'm an h2</h2>
-        <div class="box-border box-img" >
-            <img src="assets/img/foam.jpg" alt="Foam" onclick="openModal();currentSlide(1)">
-        </div>
-        <div class="box-border box-img" >
+      <body>
+	<div class="container box-wrapper">
+
+
+	<h3>Gallery</h3>
+	<div class="highslide-gallery box">
+		<ul>
+			<li>
+				<a href="assets/img/bark.jpg" class="highslide box-border box-img" title="Bark" onclick="return hs.expand(this, config1 )">
+					<img src="assets/img/bark_small.jpg"  alt="Bark"/>
+			</a>
+			</li>
+			<li>
+				<a href="assets/img/birdprints.jpg" class="highslide box-border box-img" title="Birdprints" onclick="return hs.expand(this, config1 )">
+					<img src="assets/img/birdprints_small.jpg"  alt="Birdprints"/>
+				</a>
+			</li>
+			<li>
+				<a href="assets/img/birdprints2.jpg" class="highslide box-border box-img" title="Birdprints2" onclick="return hs.expand(this, config1 )">
+					<img src="assets/img/birdprints2_small.jpg"  alt="Birdprints"/>
+				</a>
+			</li>
+			<li>
+				<a href="assets/img/birdprints3.jpg" class="highslide box-border box-img" title="Birdprints3" onclick="return hs.expand(this, config1 )">
+					<img src="assets/img/birdprints3_small.jpg"  alt=""/>
+				</a>
+			</li>
+			<li>
+				<a href="assets/img/foam.jpg" class="highslide box-border box-img" title="Foam" onclick="return hs.expand(this, config1 )">
+					<img src="assets/img/foam_small.jpg"  alt="Foam"/>
+				</a>
+			</li>
+			<li>
+				<a href="assets/img/gravel.jpg" class="highslide box-border box-img" title="Gravel" onclick="return hs.expand(this, config1 )">
+		<img src="assets/img/gravel_small.jpg"  alt="Gravel"/>
+	</a>
+			</li>
+			<li>
+				<a href="assets/img/leaves.jpg" class="highslide box-border box-img" title="Leaves" onclick="return hs.expand(this, config1 )">
+					<img src="assets/img/leaves_small.jpg"  alt="Leaves"/>
+				</a>
+			</li>
+			<li>
+				<a href="assets/img/leaves2.jpg" class="highslide box-border box-img" title="Leaves2" onclick="return hs.expand(this, config1 )">
+					<img src="assets/img/leaves2_small.jpg"  alt="Leaves2"/>
+				</a>
+			</li>
+			<li>
+				<a href="assets/img/raccoonprints.jpg" class="highslide box-border box-img" title="Raccoon Prints" onclick="return hs.expand(this, config1 )">
+					<img src="assets/img/raccoonprints_small.jpg"  alt="Raccoon Prints"/>
+				</a>
+			</li>
+			<li>
+				<a href="assets/img/rust.jpg" class="highslide box-border box-img" title="Rust" onclick="return hs.expand(this, config1 )">
+					<img src="assets/img/rust_small.jpg"  alt="Rust"/>
+				</a>
+			</li>
+			</li>
+			<li>
+				<a href="assets/img/snow.jpg" class="highslide box-border box-img" title="Snow" onclick="return hs.expand(this, config1 )">
+					<img src="assets/img/snow_small.jpg"  alt="Snow"/>
+				</a>
+			</li>
+			<li>
+				<a href="assets/img/tabby.jpg" class="highslide box-border box-img" title="Tabby" onclick="return hs.expand(this, config1 )">
+					<img src="assets/img/tabby_small.jpg"  alt="Tabby"/>
+				</a>
+			</li>
+		</ul>
+		<div style="clear:both"></div>
+	</div>
+</div>
+</body>
+
+
+
+<div class="container highslide-gallery">
+	<div class="box-wrapper">
+		<div class="box">
+
+			<a class="box-border box-img highslide" href="assets/img/foam.jpg" onclick="return hs.expand(this)">
+            <img src="assets/img/foam_small.jpg" alt="Foam" onclick="openModal();currentSlide(1)">
+        </a>
+			<a class="box-border box-img">
           <img src="assets/img/leaves.jpg" alt="Leaves" onclick="openModal();currentSlide(2)">
-        </div>
-        <div class="box-border box-img" >
+        </a>
+			<a class="box-border box-img">
           <img src="assets/img/snow.jpg" alt="Snow" onclick="openModal();currentSlide(3)">
-        </div>
-        <div class="box-border box-img" >
+        </a>
+			<a class="box-border box-img">
           <img src="assets/img/tabby.jpg" alt="Tabby" onclick="openModal();currentSlide(4)">
-        </div>
-        <div class="box-border box-img" >
+        </a>
+			<a class="box-border box-img">
             <img src="assets/img/bark.jpg" alt="Bark" onclick="openModal();currentSlide(1)">
-        </div>
-        <div class="box-border box-img" >
+        </a>
+			<a class="box-border box-img">
           <img src="assets/img/birdprints.jpg" alt="Birdprint" onclick="openModal();currentSlide(2)">
-        </div>
-        <div class="box-border box-img" >
+        </a>
+			<a class="box-border box-img">
           <img src="assets/img/birdprints2.jpg" alt="Birdprints2" onclick="openModal();currentSlide(3)">
-        </div>
-        <div class="box-border box-img" >
+        </a>
+			<a class="box-border box-img">
           <img src="assets/img/birdprints3.jpg" alt="Birdprints3" onclick="openModal();currentSlide(3)">
-        </div>
-        <div class="box-border box-img" >
+        </a>
+			<a class="box-border box-img">
           <img src="assets/img/gravel.jpg" alt="Gravel" onclick="openModal();currentSlide(4)">
-        </div>
-        <div class="box-border box-img" >
+        </a>
+			<a class="box-border box-img">
             <img src="assets/img/leaves2.jpg" alt="Leaves2" onclick="openModal();currentSlide(1)">
-        </div>
-        <div class="box-border box-img" >
+        </a>
+			<a class="box-border box-img">
           <img src="assets/img/raccoonprints.jpg" alt="Raccoon Prints" onclick="openModal();currentSlide(2)">
-        </div>
-        <div class="box-border box-img" >
+        </a>
+			<a class="box-border box-img">
           <img src="assets/img/rust.jpg" alt="Rust" onclick="openModal();currentSlide(3)">
-        </div>
-      </div>
-    </div>
-  </div>
-    <script src="assets/js/main.js"></script>
-    <div id="myModal" class="modal ">
-      <span class="close cursor" onclick="closeModal()">&times;</span>
-    <div class="modal-content">
+        </a>
+		</div>
+	</div>
+</div>
+<script src="assets/js/main.js"></script>
+<div id="myModal" class="modal ">
+	<span class="close cursor" onclick="closeModal()">&times;</span>
+	<div class="modal-content">
 
-      <div class="mySlides">
-        <div class="numbertext">1 / 12</div>
-        <img src="assets/img/foam.jpg" style="width:100%" alt="Foam">
-      </div>
+		<div class="mySlides">
+			<div class="numbertext">1 / 12</div>
+			<img src="assets/img/foam.jpg" style="width:100%" alt="Foam">
+		</div>
 
-      <div class="mySlides">
-        <div class="numbertext">2 / 12</div>
-        <img src="assets/img/leaves.jpg" style="width:100%" alt="Leaves">
-      </div>
+		<div class="mySlides">
+			<div class="numbertext">2 / 12</div>
+			<img src="assets/img/leaves.jpg" style="width:100%" alt="Leaves">
+		</div>
 
-      <div class="mySlides">
-        <div class="numbertext">3 / 12</div>
-        <img src="assets/img/snow.jpg" style="width:100%" alt="Snow">
-      </div>
+		<div class="mySlides">
+			<div class="numbertext">3 / 12</div>
+			<img src="assets/img/snow.jpg" style="width:100%" alt="Snow">
+		</div>
 
-      <div class="mySlides">
-        <div class="numbertext">4 / 12</div>
-        <img src="assets/img/tabby.jpg" style="width:100%" alt="Tabby">
-      </div>
-      <div class="mySlides">
-        <div class="numbertext">5 / 12</div>
-        <img src="assets/img/bark.jpg" style="width:100%" alt="Bark">
-      </div>
+		<div class="mySlides">
+			<div class="numbertext">4 / 12</div>
+			<img src="assets/img/tabby.jpg" style="width:100%" alt="Tabby">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">5 / 12</div>
+			<img src="assets/img/bark.jpg" style="width:100%" alt="Bark">
+		</div>
 
-      <div class="mySlides">
-        <div class="numbertext">6 / 12</div>
-        <img src="assets/img/birdprints.jpg" style="width:100%" alt="Birdprint">
-      </div>
+		<div class="mySlides">
+			<div class="numbertext">6 / 12</div>
+			<img src="assets/img/birdprints.jpg" style="width:100%" alt="Birdprint">
+		</div>
 
-      <div class="mySlides">
-        <div class="numbertext">7 / 12</div>
-        <img src="assets/img/birdprints2.jpg" style="width:100%" alt="Birdprints2">
-      </div>
+		<div class="mySlides">
+			<div class="numbertext">7 / 12</div>
+			<img src="assets/img/birdprints2.jpg" style="width:100%" alt="Birdprints2">
+		</div>
 
-      <div class="mySlides">
-        <div class="numbertext">8 / 12</div>
-        <img src="assets/img/birdprints3.jpg" style="width:100%" alt="Birdprints3">
-      </div>
-      <div class="mySlides">
-        <div class="numbertext">9 / 12</div>
-        <img src="assets/img/gravel.jpg" style="width:100%" alt="Gravel">
-      </div>
+		<div class="mySlides">
+			<div class="numbertext">8 / 12</div>
+			<img src="assets/img/birdprints3.jpg" style="width:100%" alt="Birdprints3">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">9 / 12</div>
+			<img src="assets/img/gravel.jpg" style="width:100%" alt="Gravel">
+		</div>
 
-      <div class="mySlides">
-        <div class="numbertext">10 / 12</div>
-        <img src="assets/img/leaves2.jpg" style="width:100%" alt="Leaves2">
-      </div>
+		<div class="mySlides">
+			<div class="numbertext">10 / 12</div>
+			<img src="assets/img/leaves2.jpg" style="width:100%" alt="Leaves2">
+		</div>
 
-      <div class="mySlides">
-        <div class="numbertext">11 / 12</div>
-        <img src="assets/img/raccoonprints.jpg" style="width:100%" alt="Raccoon Prints">
-      </div>
-      <div class="mySlides">
-        <div class="numbertext">12 / 12</div>
-        <img src="assets/img/rust.jpg" style="width:100%" alt="Rust">
-      </div>
+		<div class="mySlides">
+			<div class="numbertext">11 / 12</div>
+			<img src="assets/img/raccoonprints.jpg" style="width:100%" alt="Raccoon Prints">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">12 / 12</div>
+			<img src="assets/img/rust.jpg" style="width:100%" alt="Rust">
+		</div>
 
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-
-
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
 
 
 
 
-    <div class="column">
-      <img class="demo" src="assets/img/foam_small.jpg" onclick="currentSlide(1)" alt="Foam">
-    </div>
-
-    <div class="column">
-      <img class="demo" src="assets/img/leaves_small.jpg" onclick="currentSlide(2)" alt="Leaves">
-    </div>
-
-    <div class="column">
-      <img class="demo" src="assets/img/snow_small.jpg" onclick="currentSlide(3)" alt="Snow">
-    </div>
-
-    <div class="column">
-      <img class="demo" src="assets/img/tabby_small.jpg" onclick="currentSlide(4)" alt="Tabby">
-    </div>
-    <div class="column">
-      <img class="demo" src="assets/img/bark_small.jpg" onclick="currentSlide(5)" alt="Bark">
-    </div>
-
-    <div class="column">
-      <img class="demo" src="assets/img/birdprints_small.jpg" onclick="currentSlide(6)" alt="Birdprints">
-    </div>
-
-    <div class="column">
-      <img class="demo" src="assets/img/birdprints2_small.jpg" onclick="currentSlide(7)" alt="Birdprints2">
-    </div>
-
-    <div class="column">
-      <img class="demo" src="assets/img/birdprints3_small.jpg" onclick="currentSlide(8)" alt="Birdprints3">
-    </div>
-    <div class="column">
-      <img class="demo" src="assets/img/gravel_small.jpg" onclick="currentSlide(9)" alt="Gravel">
-    </div>
-
-    <div class="column">
-      <img class="demo" src="assets/img/leaves2_small.jpg" onclick="currentSlide(10)" alt="Leaves2">
-    </div>
-
-    <div class="column">
-      <img class="demo" src="assets/img/raccoonprints_small.jpg" onclick="currentSlide(11)" alt="Raccoon Prints">
-    </div>
-
-    <div class="column">
-      <img class="demo" src="assets/img/rust_small.jpg" onclick="currentSlide(12)" alt="Rust">
-    </div>
 
 
-  </div>
+		<div class="column">
+			<img class="demo" src="assets/img/foam_small.jpg" onclick="currentSlide(1)" alt="Foam">
+		</div>
+
+		<div class="column">
+			<img class="demo" src="assets/img/leaves_small.jpg" onclick="currentSlide(2)" alt="Leaves">
+		</div>
+
+		<div class="column">
+			<img class="demo" src="assets/img/snow_small.jpg" onclick="currentSlide(3)" alt="Snow">
+		</div>
+
+		<div class="column">
+			<img class="demo" src="assets/img/tabby_small.jpg" onclick="currentSlide(4)" alt="Tabby">
+		</div>
+		<div class="column">
+			<img class="demo" src="assets/img/bark_small.jpg" onclick="currentSlide(5)" alt="Bark">
+		</div>
+
+		<div class="column">
+			<img class="demo" src="assets/img/birdprints_small.jpg" onclick="currentSlide(6)" alt="Birdprints">
+		</div>
+
+		<div class="column">
+			<img class="demo" src="assets/img/birdprints2_small.jpg" onclick="currentSlide(7)" alt="Birdprints2">
+		</div>
+
+		<div class="column">
+			<img class="demo" src="assets/img/birdprints3_small.jpg" onclick="currentSlide(8)" alt="Birdprints3">
+		</div>
+		<div class="column">
+			<img class="demo" src="assets/img/gravel_small.jpg" onclick="currentSlide(9)" alt="Gravel">
+		</div>
+
+		<div class="column">
+			<img class="demo" src="assets/img/leaves2_small.jpg" onclick="currentSlide(10)" alt="Leaves2">
+		</div>
+
+		<div class="column">
+			<img class="demo" src="assets/img/raccoonprints_small.jpg" onclick="currentSlide(11)" alt="Raccoon Prints">
+		</div>
+
+		<div class="column">
+			<img class="demo" src="assets/img/rust_small.jpg" onclick="currentSlide(12)" alt="Rust">
+		</div>
+
+
+	</div>
 </div>
 
     </div>
