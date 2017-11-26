@@ -6,10 +6,8 @@ header div
     width: 100%;
   }
   body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    font-family: helvetica, arial, sans-serif;
+    width:100%;
+    min-height:100%;
   }
 
 a
