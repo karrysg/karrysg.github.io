@@ -1,0 +1,54 @@
+.video-wrapper {
+  display: grid;
+   grid-template-columns: 200px 200px 200px;
+   grid-template-rows: 200px 200px 200px;
+   grid-auto-rows: 200px;
+   grid-gap: 20px;
+}
+
+.small-video-row {
+  padding: 60px 0px;
+}
+
+.slick-slide {
+  transition: ease-in-out all .15s ease;
+  transform: scale(1, 1);
+  background-color: rgba(0, 0, 0, 0.75);
+  position: relative;
+}
+
+.slick-current {
+  transform: scale(1.25, 1.25);
+  transition: ease-in-out all .15s ease;
+  z-index: 2;
+  overflow:hidden;
+}
+
+.slick-current:hover {
+  cursor: pointer;
+}
+
+.video-overlay img
+{
+  background-color: transparent;
+  height: 25%;
+  width: 25%;
+}
+
+.slick-current .video-overlay {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.small-video-text {color:#fff;}
+
+
+.slick-slide img {
+    display: block;
+    width: 100%;
+}
+
+/************** Custom overflow ********/
+
+.slick-list {
+    overflow: visible;
+}
