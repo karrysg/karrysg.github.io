@@ -1,0 +1,187 @@
+Xsession: X session started for root at Sat 01 Feb 2020 10:12:20 PM MST
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/0/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/root/.Xauthority
+localuser:root being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=root
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting HOME=/root
+dbus-update-activation-environment: setting DESKTOP_SESSION=lightdm-xsession
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/0/bus
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=gtk2
+dbus-update-activation-environment: setting LOGNAME=root
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+dbus-update-activation-environment: setting GDM_LANG=en_US.utf8
+dbus-update-activation-environment: setting _JAVA_OPTIONS=-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/0
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=lightdm-xsession
+dbus-update-activation-environment: setting XAUTHORITY=/root/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/root
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting GDMSESSION=lightdm-xsession
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/0/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/root
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+VBoxClient: error: No service specified. Quitting because nothing to do!
+/usr/bin/x-session-manager: X server already running on display :0
+/usr/bin/iceauth:  error in locking authority file /root/.ICEauthority
+
+(xfce4-session:860): xfce4-session-WARNING **: 22:12:20.406: Failed to setup the ICE authentication data, session management might not work properly.
+xfce4-session-Message: 22:12:20.409: SSH authentication agent is already running
+gpg-agent[971]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:860): xfce4-session-WARNING **: 22:12:20.418: gpg-agent returned no PID in the variables
+
+(xfwm4:974): GLib-CRITICAL **: 22:12:20.527: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfwm4:974): xfwm4-WARNING **: 22:12:21.161: Another compositing manager is running on screen 0
+
+(xfce4-session:860): xfce4-session-WARNING **: 22:12:21.167: ICE connection 0x55f5cbc2a800 rejected
+
+(xfwm4:974): xfwm4-WARNING **: 22:12:21.167: Failed to connect to session manager: Failed to connect to the session manager: Authentication Rejected, reason : None of the authentication protocols specified are supported and host-based authentication failed
+xfwm4-Message: 22:12:28.501: Another Window Manager (Xfwm4) is already running on screen :0.0
+xfwm4-Message: 22:12:28.502: To replace the current window manager, try "--replace"
+
+(xfwm4:991): xfwm4-WARNING **: 22:12:28.502: Could not find a screen to manage, exiting
+xfwm4-Message: 22:12:28.577: Another Window Manager (Xfwm4) is already running on screen :0.0
+xfwm4-Message: 22:12:28.577: To replace the current window manager, try "--replace"
+
+(xfwm4:994): xfwm4-WARNING **: 22:12:28.578: Could not find a screen to manage, exiting
+xfwm4-Message: 22:12:28.665: Another Window Manager (Xfwm4) is already running on screen :0.0
+xfwm4-Message: 22:12:28.665: To replace the current window manager, try "--replace"
+
+(xfwm4:997): xfwm4-WARNING **: 22:12:28.665: Could not find a screen to manage, exiting
+xfwm4-Message: 22:12:28.752: Another Window Manager (Xfwm4) is already running on screen :0.0
+xfwm4-Message: 22:12:28.752: To replace the current window manager, try "--replace"
+
+(xfwm4:1000): xfwm4-WARNING **: 22:12:28.752: Could not find a screen to manage, exiting
+xfwm4-Message: 22:12:28.835: Another Window Manager (Xfwm4) is already running on screen :0.0
+xfwm4-Message: 22:12:28.835: To replace the current window manager, try "--replace"
+
+(xfwm4:1003): xfwm4-WARNING **: 22:12:28.835: Could not find a screen to manage, exiting
+
+(xfsettingsd:1019): GLib-CRITICAL **: 22:12:29.544: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfsettingsd:1019): GLib-GObject-CRITICAL **: 22:12:29.566: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+
+(xfce4-session:860): xfce4-session-WARNING **: 22:12:29.609: ICE connection 0x55f5cbc239c0 rejected
+Failed to connect to session manager: Failed to connect to the session manager: Authentication Rejected, reason : None of the authentication protocols specified are supported and host-based authentication failed
+
+(xfce4-session:860): xfce4-session-WARNING **: 22:12:29.675: ICE connection 0x55f5cbc239c0 rejected
+xfce4-panel: Failed to connect to session manager: Failed to connect to the session manager: Authentication Rejected, reason : None of the authentication protocols specified are supported and host-based authentication failed
+
+(wrapper-2.0:1313): Gtk-WARNING **: 22:12:30.243: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1318): GLib-GIO-CRITICAL **: 22:12:30.271: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1318): GLib-GIO-CRITICAL **: 22:12:30.272: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1318): GLib-GObject-WARNING **: 22:12:30.272: invalid (NULL) pointer instance
+
+(wrapper-2.0:1318): GLib-GObject-CRITICAL **: 22:12:30.272: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1318): Gtk-WARNING **: 22:12:30.272: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+** (wrapper-2.0:1319): WARNING **: 22:12:30.294: No outputs have backlight property
+
+(wrapper-2.0:1318): Gtk-WARNING **: 22:12:30.312: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1319): xfce4-power-manager-plugin-WARNING **: 22:12:30.404: Xfce4-power-manager: The panel plugin is present, so the tray icon gets disabled.
+
+(wrapper-2.0:1317): Gtk-WARNING **: 22:12:30.414: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:1319): Gtk-WARNING **: 22:12:30.425: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner PowerManagerButton)
+xfce4-panel: Failed to connect to session manager: Failed to connect to the session manager: Authentication Rejected, reason : None of the authentication protocols specified are supported and host-based authentication failed
+
+(xfce4-session:860): xfce4-session-WARNING **: 22:12:37.693: ICE connection 0x55f5cbc239c0 rejected
+
+(xfce4-panel:1342): xfce4-panel-CRITICAL **: 22:12:37.694: Name org.xfce.Panel lost on the message dbus, exiting.
+
+(xfce4-session:860): xfce4-session-WARNING **: 22:12:37.721: ICE connection 0x55f5cbc239c0 rejected
+xfce4-panel: Failed to connect to session manager: Failed to connect to the session manager: Authentication Rejected, reason : None of the authentication protocols specified are supported and host-based authentication failed
+
+(xfce4-panel:1346): xfce4-panel-CRITICAL **: 22:12:37.722: Name org.xfce.Panel lost on the message dbus, exiting.
+xfce4-panel: Failed to connect to session manager: Failed to connect to the session manager: Authentication Rejected, reason : None of the authentication protocols specified are supported and host-based authentication failed
+
+(xfce4-session:860): xfce4-session-WARNING **: 22:12:37.747: ICE connection 0x55f5cbc239c0 rejected
+
+(xfce4-panel:1350): xfce4-panel-CRITICAL **: 22:12:37.748: Name org.xfce.Panel lost on the message dbus, exiting.
+xfce4-panel: Failed to connect to session manager: Failed to connect to the session manager: Authentication Rejected, reason : None of the authentication protocols specified are supported and host-based authentication failed
+
+(xfce4-session:860): xfce4-session-WARNING **: 22:12:37.773: ICE connection 0x55f5cbc239c0 rejected
+
+(xfce4-panel:1354): xfce4-panel-CRITICAL **: 22:12:37.774: Name org.xfce.Panel lost on the message dbus, exiting.
+xfce4-panel: Failed to connect to session manager: Failed to connect to the session manager: Authentication Rejected, reason : None of the authentication protocols specified are supported and host-based authentication failed
+
+(xfce4-session:860): xfce4-session-WARNING **: 22:12:37.800: ICE connection 0x55f5cbc239c0 rejected
+
+(xfce4-panel:1358): xfce4-panel-CRITICAL **: 22:12:37.801: Name org.xfce.Panel lost on the message dbus, exiting.
+
+(xfce4-session:860): xfce4-session-WARNING **: 22:12:37.876: ICE connection 0x55f5cbc239c0 rejected
+Failed to connect to session manager: Failed to connect to the session manager: Authentication Rejected, reason : None of the authentication protocols specified are supported and host-based authentication failed
+
+(xfce4-session:860): xfce4-session-WARNING **: 22:12:46.046: ICE connection 0x55f5cbc239c0 rejected
+
+** (xfdesktop:1368): WARNING **: 22:12:48.816: Unable to create symbolic link: Operation not permitted
+
+(xfce4-session:860): xfce4-session-WARNING **: 22:12:54.226: ICE connection 0x55f5cbc239c0 rejected
+
+(xfce4-session:860): xfce4-session-WARNING **: 22:12:54.227: ICE connection 0x55f5cbc239c0 rejected
+Failure: Module initialization failed
+
+** (xiccd:1460): WARNING **: 22:12:54.386: EDID is empty
+
+(xfce4-session:860): xfce4-session-WARNING **: 22:13:06.458: ICE connection 0x55f5cbc239c0 rejected
+Qt: Session management error: Authentication Rejected, reason : None of the authentication protocols specified are supported and host-based authentication failed
+Properties constructor called
+TRANSLATIONS_DIR: Loading translation file "qterminal_en_US.qm" from dir /usr/share/qterminal/translations
+load success: false
+Canot open file "/root/.config/qterminal.org/qterminal_bookmarks.xml"
+Trying to load translation file from dir "/usr/share/xfce4"
+Trying to load translation file from dir "/usr/local/share/"
+Trying to load translation file from dir "/usr/share/"
+Trying to load translation file from dir "/usr/share"
+Trying to load translation file from dir "/usr/share/qtermwidget5/translations"
+default KB_LAYOUT_DIR:  "/usr/share/qtermwidget5/kb-layouts"
+loadAllColorSchemes
+Using a variable-width font in the terminal.  This may cause performance degradation and display/alignment errors.
+Shell program: "/bin/bash"
+("/bin/bash")
+Using a variable-width font in the terminal.  This may cause performance degradation and display/alignment errors.
+Properties destructor called
+
+(xfce4-session:860): xfce4-session-WARNING **: 22:13:21.139: ICE connection 0x55f5cbc239c0 rejected
+Qt: Session management error: Authentication Rejected, reason : None of the authentication protocols specified are supported and host-based authentication failed
+Properties constructor called
+TRANSLATIONS_DIR: Loading translation file "qterminal_en_US.qm" from dir /usr/share/qterminal/translations
+load success: false
+Canot open file "/root/.config/qterminal.org/qterminal_bookmarks.xml"
+Trying to load translation file from dir "/usr/share/xfce4"
+Trying to load translation file from dir "/usr/local/share/"
+Trying to load translation file from dir "/usr/share/"
+Trying to load translation file from dir "/usr/share"
+Trying to load translation file from dir "/usr/share/qtermwidget5/translations"
+default KB_LAYOUT_DIR:  "/usr/share/qtermwidget5/kb-layouts"
+loadAllColorSchemes
+Using a variable-width font in the terminal.  This may cause performance degradation and display/alignment errors.
+Shell program: "/bin/bash"
+("/bin/bash")
+Using a variable-width font in the terminal.  This may cause performance degradation and display/alignment errors.
+Canot open file "/root/.config/qterminal.org/qterminal_bookmarks.xml"
+Trying to load translation file from dir "/usr/share/xfce4"
+Trying to load translation file from dir "/usr/local/share/"
+Trying to load translation file from dir "/usr/share/"
+Trying to load translation file from dir "/usr/share"
+Trying to load translation file from dir "/usr/share/qtermwidget5/translations"
+Using a variable-width font in the terminal.  This may cause performance degradation and display/alignment errors.
+Shell program: "/bin/bash"
+("/bin/bash")
+Using a variable-width font in the terminal.  This may cause performance degradation and display/alignment errors.
