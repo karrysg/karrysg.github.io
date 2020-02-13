@@ -1,6 +1,0 @@
-search.services.mozilla.com:HSTS	0	18294	1612156239639,1,0,2
-firefox.settings.services.mozilla.com:HSTS	0	18294	1612156241441,1,0,2
-snippets.cdn.mozilla.net:HSTS	0	18294	1612156243440,1,0,2
-img-getpocket.cdn.mozilla.net:HSTS	0	18294	1643692242549,1,1,2
-shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:HSTS	0	18294	1612156237448,1,1,2
-location.services.mozilla.com:HSTS	0	18294	1612156236529,1,1,2
